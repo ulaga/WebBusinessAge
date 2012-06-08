@@ -1,0 +1,917 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deftab709{\fonttbl{\f0\froman\fcharset128 Liberation Serif;}{\f1\fswiss\fcharset128 Verdana;}{\f2\fswiss\fcharset128 Arial;}{\f3\fswiss\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue0;\red127\green0\blue0;\red0\green0\blue127;\red255\green0\blue0;\red255\green255\blue255;\red127\green127\blue127;}
+{\stylesheet{ Normal;}{\s1 heading 1;}{\s2 heading 2;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\cbpat5\nowidctlpar\hyphpar0\qr\cf1\lang2052\kerning1\b\f0\fs72\tab\par
+\par
+\lang255\par
+\par
+\par
+\par
+\pard\cbpat5\nowidctlpar\hyphpar0\qc\lang2052\scaps\f1\fs44\par
+\pard\cbpat5\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf2\par
+\pard\cbpat5\nowidctlpar\hyphpar0\sl100\slmult0\qc\cf1\fs64 Web Business Age\par
+\fs44 use case document\par
+\pard\cbpat5\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf2\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\fs28\par
+\par
+\par
+\par
+\par
+\par
+\cf1\par
+\par
+Table of Contents\par
+\pard\cbpat5\nowidctlpar\hyphpar0\sb120\sa120\sl100\slmult0\tqr\tldot\tx12240\cf3\lang255\ul\scaps0\f0\fs24 Use Case Name Details \tab\cf1\lang2052\ulnone 3\par
+\cf3\lang255\ul Use Case 1: Home \tab\cf1\lang2052\ulnone 5\par
+\cf3\lang255\ul Use Case 2: About \tab\cf1\lang2052\ulnone 6\par
+\cf3\lang255\ul Use case 3: Contact \tab\cf1\lang2052\ulnone 7\par
+\cf3\lang255\ul Use case 4: After Contacts \tab\cf1\lang2052\ulnone 8\par
+\cf3\lang255\ul Use Case 5: User registration \tab\cf1\lang2052\ulnone 9\par
+\cf3\lang255\ul Use Case 6: User registration\lang2052 (contd1)\lang255  \tab\cf1\lang2052\ulnone 10\par
+\cf3\lang255\ul Use Case 7: User registration\lang2052 (contd2)\lang255\tab 1\cf1 1\par
+\cf3 Use case 8: Login \tab 1\cf1 2\par
+\cf3 Use case 9: Forgot your password \tab 1\cf1 3\par
+\cf3 Use case 10: Member reset password \tab 1\cf1 4\par
+\cf3 Use case 11: Search \tab\cf1\lang2052\ulnone 15\par
+\cf3\lang255\ul Use case 12: Search result page \tab\cf1\lang2052\ulnone 16\par
+\cf3\lang255\ul  Use case 13: After login page \tab\cf1\lang2052\ulnone 17\par
+\cf3\lang255\ul Use case 14: After login member click blogs\tab\cf1\lang2052\ulnone 18\par
+\cf3\lang255\ul Use case 15: My saved listings \tab\cf1\lang2052\ulnone 19\par
+\cf3\lang255\ul Use case 16: My saved blog posts \tab\cf1\lang2052\ulnone 20\par
+\cf3\lang255\ul Use case 17: Advertise \tab\cf1\lang2052\ulnone 21\par
+\cf3\lang255\ul Use case 18: Advertiser registration\tab\cf1\lang2052\ulnone 22\par
+\cf3\lang255\ul Use case 19: Advertiser registration contd\tab\cf1\lang2052\ulnone 23\par
+\cf3\lang255\ul Use case 20: Blog \tab\cf1 24\par
+\cf3 Use case 21: Individual blog post\tab\cf1 25\par
+\cf3 Use case 22: User blog category\tab\cf1 26\par
+\cf3 Use case 23: User recent post\cf1 .......................................................................................................... \cf3 28\par
+Use case 24: Directory\tab\cf1 29\par
+\cf3 Use case 25: Member click listing \tab\cf1 30\par
+\cf3 Use case 26: Member click linked in button\tab\cf1 31\par
+\cf3 Use case 27: Member click twitter button\tab\cf1 32\par
+\cf3 Use case 28: Header link 1 about\tab\cf1 33\par
+\cf3 Use case 29: Header link 2 contact\tab\cf1 34\par
+\cf3 Use case 30: Header link 3 advertise\tab\cf1 35\par
+\cf3 Use case 31: Footer link 1 sitemap\tab\cf1 36\par
+\cf3 Use case 32: Footer link 2 terms of services\tab\cf1 37\par
+\cf3 Use case 33: Footer link 3 privacy policy\tab\cf1 38\par
+\pard\cbpat5\nowidctlpar\hyphpar0\tqr\tldot\tx12240\lang2052\ulnone\b0\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\par
+\par
+\cf1 Use Case Name Details\par
+\pard\nowidctlpar\hyphpar0\qj\b0\scaps0\f0\fs24\par
+\trowd\trgaph10\trleft-10\trrh340\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Use Case ID\cell Use case\cell Primary Actor\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf1 UC_WBA_001\cell\b0  Home\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_002\cell\b0 About\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_003\cell\b0 Contact\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_004\cell\b0 After contact\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_005\cell\b0 User registration\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_006\cell\b0 User registration (contd 1)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_007\cell\b0 User registration (contd 2)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_008\cell\b0 Login\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_009\cell\b0 Forgot your password\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_010\cell\b0 Member reset password\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_011\cell\b0 Search\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_012\cell\b0 Search results\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_013\cell\b0 After login\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_014\cell\b0 After login member click blog\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_015\cell\b0 My saved listings\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_016\cell\b0 My saved blog posts\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_017\cell\b0 Advertise\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_018\cell\b0 Advertiser registration\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_019\cell\b0 Advertiser registration contd\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_020\cell\b0 Blog \cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_021\cell\b0 Individual blog post\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_022\cell\b0 User blog category\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_023\cell\b0 User blog tag\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_024\cell\b0 User recent post\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_025\cell\b0 Directory\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_026\cell\b0 Member click listing\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_027\cell\b0 Member click linked-in button\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_028\cell\b0 Member click twitter button\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_029\cell\b0 Header link 1(about)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_030\cell\b0 Header link 2(contact)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_031\cell\b0 Header link 3(advertise)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_032\cell\b0 Footer link 1(sitemap)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_033\cell\b0 Footer link 2(terms of services)\cell User\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx2059\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx6386\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9648\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\b UC_WBA_034\cell\b0 Footer link 3(privacy policy)\cell User\cell\row\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f2\fs28\par
+\pard\nowidctlpar\hyphpar0\sl100\slmult0\qj\f1\fs44\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\f2\fs28\par
+\par
+\cf1\f1 Use Case 1: HOME\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Home\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_001\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can see the featured sponsered listing, featured normal listing, directory listing, blog post, blog categories, tags , recent post.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can see the description of the WBA application.\par
+\b Step 2\b0 : User on clicking the logo of the application will be redirected to the home page.\par
+\b Step 3: \b0 The sponsered listing of the application can be viewed.\par
+\b Step 4: \b0 On clicking the more link the user read more about the sponsered list.\par
+\b Step 5: \b0 The normal listing of the application can be viewed.\par
+\b Step 6: \b0 On clicking the more link, the user can read more about the normal listing.\par
+\b Step 7:\b0  Directories will be listed.\par
+\b Step 8: \b0 User can view the blogs which are posted by other users.\par
+\b Step 9: \b0 If the user is already registered can give the corresponding information in the login \tab  form and can enter the application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab User can view the blog\lang1033\f3  \lang2052\f0 posts, directories.\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf2\i0\f1\tab\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf1\b\scaps\fs28\par
+\par
+\cf2\f2\par
+\cf1\f1 Use Case 2: About       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 About\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_002\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the details about the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the details about the Web Business Age application.\par
+\b Step 2\b0 : User can view the testimonials\lang1033\f3 .\lang2052\f0\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab\i0 User is in about page of WBA.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 3: CONTACT\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Contact\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_003\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can contact to send their suggestions.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should enter the contact us page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User should enter the firstname, lastname, e-mail id.\par
+\b Step 2\b0 : User should select an option from the dropdownlist to specify the purpose.\par
+\b Step 3: \b0 User should enter the subject and comments about the application.\par
+\b Step 4: \b0 On clicking the submit button the user is redirected to the after contact us page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab User is in after contact us page.\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf2\f1\tab\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\i0\scaps\fs28\par
+\par
+\f2\par
+\f1\par
+\f2\par
+\cf1\f1\par
+\f2\par
+\f1 Use Case 4: AFTER CONTACT\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 After contact \cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_004\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can register to the WBA and can view features of the WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the submit button in the contact us page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can become a member by clicking the make me a member button.\par
+\b Step 2\b0 :  When user click the No Thanks link, user is redirected to home page.\par
+\b Step 3: \b0 User can view the features of the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab\i0 User is in registration page or in home page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\tab\par
+\pard\nowidctlpar\hyphpar0\qj\b0\scaps0\fs24\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf1\b\scaps\fs28 Use Case 5: USER REGISTRATION\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 User Registration\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_005\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can become a member of the WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User should enter the first name, last name,E-mail, password.\par
+\b Step 2\b0 : Also user should enter the password again to confirm.\par
+\b Step 3: \b0 A captcha is displayed in the screen.\par
+\b Step 4: \b0 User should enter the text in the captcha in the text box.\par
+\b Step 5: \b0 User can also read the Terms of services and Privacy policy by clicking the link.\par
+\b Step 6: \b0 On clicking the make me a Quick member button the user is redirected to the \tab continuation of the registration page.\par
+  \par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab User is navigated to the Registration contd 1 page.\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf2\i0\f1\tab\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\scaps\fs28\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\scaps0\f0\fs24\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 6: USER REGISTRATION (contd1)\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 User Registration (Contd1)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_006\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can provide the contact details in the registration form of WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should clicked the make me a Quick member button in the registration page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User should give the information about the area of interest.\par
+\b Step 2\b0 : User should provide the contact details.\par
+\b Step 3: \b0 On clicking the skip the step link user can avoid providing the contact details.\par
+\b Step 4: \b0 The skip the step link redirects the user to the advertiser registration page.\par
+\b Step 5: \b0 User when clicks the update profile details button is redirected to the next level of \tab registration page.\par
+\b Step 6: \b0 On clicking the make me a Quick member button the user is redirected to the \tab continuation of the registration page.\par
+  \par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is navigated to the Registration contd 1 page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\par
+\f2\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\scaps0\f0\fs24\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 7: USER REGISTRATION (contd 2)\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 User Registration (contd2)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_007\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can upgrade his membership to an advertiser membership.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the user registration contd1 page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the yes i would like to become an advertiser member can upgrade \tab his/her account to an advertiser account.\par
+\b Step 2\b0 : User on clicking the no thanks button is redirected to My WBA page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in My WBA page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\b0\f2\par
+\cf1\b\f1\par
+\par
+Use Case 8: LOGIN\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Login\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_008\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can log into the application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have registered.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User provide the E-mail id and password.\par
+\b Step 2\b0 : User on clicking the login button enters the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in My WBA page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\scaps\f2\fs28\par
+\cf1\b\f1\par
+\par
+Use Case 9: FORGOT YOUR PASSWORD\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Forgot your password\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_009\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can reset the password.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have clicked the forgot your password link in login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User provides the e-mail id associated to the WBA application.\par
+\b Step 2\b0 : User will receive an email after providing the valid email address.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in member reset password page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\f2\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\b0\i\scaps0\f0\fs24\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf1\b\i0\scaps\f1\fs28\par
+\par
+Use Case 10: MEMBER RESET PASSWORD\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Member reset password\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_010\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can reset a new password to the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have clicked reset my password button in forgot your password page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User provides a new password to the WBA\tab  application.\par
+\b Step 2\b0 : User should re-enter the password to confirm the password.\par
+\b Step 3: \b0 User on clicking the reset button is redirected to Login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\b0\i\scaps0\f0\fs24\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\i0\scaps\f1\fs28\par
+\cf1\par
+Use Case 11: SEARCH\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Search\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_011\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can search any term in the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the home page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User should provide the search term or keyword.\par
+\b Step 2\b0 : User on clicking the search button can view the search result and also redirected to \tab the search result page.\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in search result page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\cf1\b0\scaps0\f0\fs24  \cf2\b\scaps\f1\fs28\par
+\cf1\par
+Use Case 12: SEARCH RESULT PAGE\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Search result page\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_012\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view search result.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered any search for keyword.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the search result of the blogs.\par
+\b Step 2\b0 : User can view the search result of the directories. \par
+\b Step 3: \b0 User can view the brief description of the posted blog.\par
+\b Step 4: \b0 User on clicking the read more link can view the blog.\par
+\b Step 5: \b0 User can view the brief description of the directories in the directory tag.\par
+\b Step 6: \b0 User on clicking the title of directory or more link is redirected to the member click \tab listing page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab\b Step 1: \b0 User on clicking the save in my business link is redirected to the login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User might be in login/my saved blog/member click listing page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\b0\f2\par
+\b\f1\par
+\cf1 Use Case 13: AFTER LOGIN\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 After login \cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_013\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the saved blog,saved listing,recently viewed blog and recently viewed listing.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have been authenticated.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view all his/her saved listings.\par
+\b Step 2\b0 : User can view all  his/her saved blogs.\par
+\b Step 3: \b0 User can view all the recently listings.\par
+\b Step 4: \b0 User can view all the recently\lang1033\f3  \lang2052\f0 blogs.\par
+\b Step 5: \b0 User on clicking the more link in my saved listing is redirected to the my saved \tab listing page.\par
+\b Step 6: \b0 User can upgrade his account to advertiser member account\par
+\b Step 7: \b0 User on clicking the saved listing link in my account is redirected to my saved \tab listing \tab page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in my WBA page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\b0\f2\par
+\b\f1\par
+\cf1 Use Case 14: AFTER LOGIN MEMBER CLICK BLOG\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 After login member click blog\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_014\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the featured and recently posted blogs.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the blog button in the after login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the featured blog posts.\par
+\b Step 2\b0 : User can view the recent blog posts.\par
+\b Step 3: \b0 User on clicking the post title/read more link can read the content of the post.\par
+\b Step 4: \b0 User on clicking the post title/read more link in the recent blog posts can read the \tab content of the blogs.\par
+\b Step 5: \b0 User on clicking the my saved listing link can view the saved lisings.\par
+\b Step 6: \b0 User on clicking the my saved blogs link can view all the blogs saved by him/her.\par
+\b Step 7: \b0 User can upgrade his account to a advertiser member by clicking the become \tab advertiser member button.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in member clicked my blog page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\b0\f2\par
+\b\f1\par
+\cf1 Use Case 15: MY SAVED LISTING\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 My saved listing\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_015\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the saved listings.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the my saved listing link in member clicked blogs page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view saved listings in the page.\par
+\b Step 2\b0 : User on clicking the title of the listings can view contents of the specified list item.\par
+\b Step 3: \b0 User on clicking the more link is redirected to the content of the listings.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in member clicked listing page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\b0\i\scaps0\f0\fs24\par
+\b\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\i0\scaps\f1\fs28\par
+\cf1 Use Case 16: MY SAVED BLOG POSTS\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 My saved blog posts\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_016\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the all the blog posts saved the him/her.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the my saved blogs link in the member clicked blogs page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view  blogs saved by the him/her in the page.\par
+\b Step 2\b0 : User can view the brief definition about the blogs,date of blogs been posted and also \tab the author name of the blogs.\par
+\b Step 3: \b0  User can view the blogs individually by clicking the title of the blogs\par
+\b Step 4: \b0 User on clicking the readmore link is redirected to the individual blog post page and  \tab can read the content of the blogs.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in individual blog post page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\i\scaps0\f0\fs24\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\i0\scaps\f1\fs28\par
+\cf1 Use Case 17: ADVERTISE\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Advertise\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_017\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view details about the advertisements.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can download kit by clicking the button.\par
+\b Step 2\b0 : User can also become an advertiser by clicking the become advertiser link in the \tab login form.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in individual blog post page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 18: ADVERTISER REGISTRATION\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Advertiser registration\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_018\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can register an accont for advertising.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the advertising options link in the home page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the advertiser registration form.\par
+\b Step 2\b0 : User should provide the details required to become an advertiser.\par
+\b Step 3: \b0 User should provide valid details for the First name, last name, E-mail id, password \tab fields.\par
+\b Step 4: \b0 User should provide the company name, address, city,  state, country, phone number, \tab company web site.\par
+\b Step 5: \b0 User should enter the text in the captcha in the corresponding text box.\par
+\b Step 6: \b0 User on clicking the submit button moves to the next page of registration.\par
+\b Step 7: \b0 The fields denoted by a astricks are mandatory fields.\par
+\b Step 8:  \b0 User can also view the terms of services and privacy policy.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in advertiser registration continuation page.\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 19: ADVERTISER REGISTRATION CONTD\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Advertiser registration contd\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_019\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can register an accont for advertising.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the submit button in the advertiser registration page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User should provide details such as geographical interest, level of business, area of \tab interest.\par
+\b Step 2\b0 : User should provide linked in profile, twitter profile or any social network profile \tab URL.\par
+\b Step 3: \b0 User should specify that whether he/she want to contribute the content to the web \tab business application.\par
+\b Step 4: \b0 User should provide an alternate e-mail id.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf1\b0\i0\tab User has created an advertiser account in WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 20: BLOG\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Blog\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_020\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the featured posts and recent posts.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the blog button from any page after logged in.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view 2 or 3 featured posts with summary and posted date, author name.\par
+\b Step 2\b0 : User on clicking the title of the featured posts can read the content of the featured \tab posts.\par
+\b Step 3: \b0  User on clicking the read more can view the blogs individually.\par
+\b Step 4: \b0 User on clicking the save in my web business link can save the particular blog.\par
+\b Step 5: \b0 User can view recent posts with summary and posted date, author name.\par
+\b Step 6: \b0 User on clicking the title of the recent posts can read the content of the recent \tab posts.\par
+\b Step 7: \b0 User on clicking the read more can view the blogs individually.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in individual blog post page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\par
+\f2\par
+\f1\par
+\cf1 Use Case 21: INDIVIDUAL BLOG POST \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Individual blog post\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_021\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the content of the blogs individualy.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the post title in the blog page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the details about the blogs posted.\par
+\b Step 2: \b0 User can save the blogs.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in\lang1033\f3   \lang2052\f0 individual\lang1033\f3  \lang2052\f0 blog \lang1033\f3  \lang2052\f0 post\lang1033\f3  \lang2052\f0 page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\cf1\par
+Use Case 22: USER BLOG CATEGORY\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 User blog category\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_022\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the posts based on the categories.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the category link in individual blog posts page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view 2 or 3 featured posts with summary and posted date, author name.\par
+\b Step 2\b0 : User on clicking the title of the featured posts can read the content of the featured \tab posts.\par
+\b Step 3: \b0  User on clicking the read more can view the blogs individually.\par
+\b Step 4: \b0 User on clicking the save in my web business link can save the particular blog.\par
+\b Step 5: \b0 User can view 10 recent posts with summary and posted date, author name.\par
+\b Step 6: \b0 User on clicking the title of the recent posts can read the content of the recent \tab posts.\par
+\b Step 7: \b0 User on clicking the read more can view the blogs individually.\par
+\b Step 8:\b0   User on clicking the save in my web business link can save the particular blog.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b0\f1\tab\cf1\i0\f0 User is in individual blog post page.\b\scaps\f1\fs28\par
+\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf2\b0\scaps0\f0\fs24\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf1\b\scaps\f1\fs28 Use Case 23: USER RECENT POST\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 User recent post\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_024\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the details of a particular post.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the recent post link in the blog page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the details about the blogs posted.\par
+\b Step 2\b0 : User can view the images and rating articles.\par
+\b Step 3: \b0 User can save or share the blogs.\par
+\b Step 4: \b0 User can view the list of related posts.\par
+\b Step 5: \b0 User on clicking the title of the related posts link individual posts will be displayed.\par
+\b Step 6: \b0 User can add comments to a particular post.\par
+\b Step 7: \b0 Comments of other members can be viewed by the user.\par
+\b Step 8: \b0 User should provide the first name, last name, e-mail id, web site, comments.\par
+\b Step 9:\b0  User on clicking the submit button will be redirected to the registration page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\i0\tab\cf1 User is in recent blog post page.\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 25: DIRECTORY\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Directory\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_025\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the listings with summary.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the directory button in the blog page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the listing with title name and summary.\par
+\b Step 2\b0 : User can view the details about the listings such as author name, date of the listing \tab created.\par
+\b Step 3: \b0 User can view the various categories in the left.\par
+\b Step 4: \b0 Each link in the category list will redirect the user to the particular page on clicking.\par
+\b Step 5: \b0 The listings in the directories is grouped based on the content type.\par
+\b Step 6: \b0 Each tab in the page will display the listings based on the corresponding content \tab type.\par
+\b Step 7: \b0 User on clicking the title of the listing/read more link can read the content of the \tab listings.\par
+\b Step 8: \b0 User on clicking the save in my web business link can save the listings for future \tab reference.\par
+\b Step 9:\b0  User on clicking the advertise in WBA via sponsered listings link can advertise their \tab products in WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab\b Step 1: \b0 User on clicking the save in my web business link is redirected to the login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf1\b0\i0\tab User is in member click listing page.\b\scaps\f1\fs28\par
+\par
+Use Case 26: MEMBER CLICKING LISTING\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Member click listing\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_026\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the content of the listings and can post comments for the listings.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the title of the listing in the directory page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the content of the listings.\par
+\b Step 2\b0 : User can give ratings to the articles.\par
+\b Step 3: \b0 User can share/save the article.\par
+\b Step 4: \b0 User can also view the list of posts related to the content of the post.\par
+\b Step 5: \b0 User can add their comments to a particular post.\par
+\b Step 6: \b0 User provide details such as first name, last name, email, web site, and also his \tab comments about the post.\par
+\b Step 7: \b0 User on clicking the submit button can add his comments to the post and is \tab redirected to the registration page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab\b Step 1: \b0 User on clicking the save in my web business link is redirected to the login page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\i0\f1\tab\cf1\f0 User is in registration page/login page/my saved blogs page.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f1\fs28\par
+\par
+\par
+\f2\par
+\f1\par
+\par
+\cf1 Use Case 27: MEMBER CLICK LINKED-IN BUTTON\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Member click linked in button\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_027\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the the profile of WBA in Linkedin.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the linked in button.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the profile of WBA in linked in.\par
+\b Step 2\b0 : User can add the WBA as friends to their network.\par
+\b Step 3: \b0 User can also register in linked in network on clicking the sign up link.\par
+\b Step 4: \b0 User can search for people in linked network using the search.\par
+\b Step 5: \b0 User on clicking the back to home page link is redirected to the home page of WBA \tab application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\i0\f1\tab\cf1\f0 User is in home page of WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\scaps\f2\fs28\par
+\cf1\f1\par
+Use Case 28: MEMBER CLICK TWITTER BUTTON\par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Member click twitter button\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_028\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can login or join the twitter network.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should click the twitter button.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User can view the twitter brief description about the twitter network.\par
+\b Step 2: \b0 User can register to become a member of the twitter network.\par
+\b Step 3: \b0 User can login to the twitter network.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\i0\f1\tab\cf1\f0 User is in home page of WBA application/logged in to the twitter network.\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 29: HEADER LINK1 (ABOUT)       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Header link 1 (About)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_0029\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view the details about the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the Web Business Age application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the about link in the home page is redirected to the about us page.\par
+\b Step 1: \b0 User can view the details about the Web Business Age application.\par
+\b Step 2\b0 : User can view the testimonials.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf1\b0\tab\i0 User is in about page of WBA.\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 30: HEADER LINK2 (CONTACT)       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Header link 2 (contact)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_030\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can contact WBA to send their suggestions.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should enter the contact us page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the contact link in the home page is redirected to the contact page.\par
+\b Step 2\b0 : User can see the\lang1033\f3  \lang2052\f0 contacts .\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\tab\i0 User is in contact us page.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 31: HEADER LINK3 (ADVERTISE)       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Header link 3 (advertise)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_031\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view details about the advertisements.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the WBA application.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the advertise link in the home page is redirected to the advertise \tab page.\par
+\b Step 2: \b0 User can download kit by clicking the button.\par
+\b Step 3\b0 : User can also become an advertiser by clicking the become advertiser link in the \tab login form.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\b0\f1\tab\cf1\i0\f0 User is in advertise post page.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\par
+Use Case 33: FOOTER LINK2 (TERMS OF SERVICES)       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Footer link2 (terms of services)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_033\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view details about the terms and conditon of WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the Terms of services page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the terms of services link in the home page is redirected to the  \tab terms of services page.\par
+\b Step 2: \b0 User can view all the details about the terms and conditions of WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf1\b0\i0\tab User is in Terms of services page.\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard\keepn\nowidctlpar\hyphpar0\sb240\sa60\sl100\slmult0\qj\tx0\b\scaps\f1\fs28\par
+\cf2\f2\par
+\cf1\f1 Use Case 34: FOOTER LINK 3 (PRIVACY POLICY)       \par
+\cf2\par
+\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx1970\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6 \cellx7370\clcbpat5\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\scaps0\f0\fs24 Use Case Name\cell\cf1 Footer link3 (privacy policy)\cell\cf4 Use Case Type\cell\cf1 Business Flow\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx5375\clcbpat1\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx7370\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4 Use case ID\cell\cf1\b0 UC_WBA_034\cell\cf4\b Priority\cell\cf1\b0 Simple\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrr\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Primary Actors\cell\cf1\b0 User\cell\row\trowd\trgaph10\trleft-10\trrh269\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clcbpat1\clbrdrl\brdrw20\brdrs\brdrcf6\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx1970\clbrdrt\brdrw20\brdrs\brdrcf6\clbrdrr\brdrw20\brdrs\brdrcf6\clbrdrb\brdrw20\brdrs\brdrcf6 \cellx9640\pard\intbl\nowidctlpar\hyphpar0\sl100\slmult0\qj\cf4\b Other Actors\cell\cf1\b0 NA\cell\row\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Description\par
+\pard\nowidctlpar\hyphpar0\cf1\b0\i0\tab User can view details about the privacy policies of WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Precondition\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab User should have entered the privacy policy page.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Primary Flow: \par
+\pard\nowidctlpar\hyphpar0\qj\cf1\i0 Step 1: \b0 User on clicking the privacy policy link in the home page is redirected to the  \tab\tab corresponding page.\par
+\b Step 2: \b0 User can view all the details about the privacy policies of WBA.\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i Alternate Flow\par
+\pard\nowidctlpar\hyphpar0\qj\cf1\b0\i0\tab NA\par
+\pard\keepn\nowidctlpar\hyphpar0\s2\sb240\sa60\sl100\slmult0\qj\tx0\cf2\b\i End State\par
+\pard\nowidctlpar\hyphpar0\sb240\sa60\qj\cf1\b0\i0\tab User is in Privacy policy page.\par
+}
+ 
