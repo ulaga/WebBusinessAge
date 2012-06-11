@@ -11,7 +11,7 @@ class StaticController < ApplicationController
 	if @c.save
 		Contact.sendmail(@c.email,@c.subject).deliver
 
-		#redirect_to home_userhome_path
+		redirect_to home_userhome_path
 	end
 	end
 	def advertise

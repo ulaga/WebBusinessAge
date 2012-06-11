@@ -88,7 +88,7 @@ def feed
   #@title = "PostAdjust Dashboard"
 
   # the news items
-  @news_items = Dashboard.order("updated_at desc")
+  @news_items = Blog.order("updated_at desc")
 
   # this will be our Feed's update timestamp
   #@updated = @news_items.first.updated_at unless @news_items.empty?

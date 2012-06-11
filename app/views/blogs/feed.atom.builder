@@ -7,7 +7,7 @@ xml.rss :version => "2.0" do
     for post in @news_items
       xml.item do
         xml.title post.title
-         xml.link  "http://localhost:3000/dashboard/details/#{post.id}"
+         xml.link  "http://localhost:3000/blogs/#{post.id}"
         xml.update_time post.updated_at
       end
     end
