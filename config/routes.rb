@@ -12,7 +12,8 @@ WBA::Application.routes.draw do
 #static controller
   match 'static/logout' => 'static#logout'
   match 'static/about' => 'static#about'
-  match 'static/contactus' => 'static#contactus'
+  match 'static/new'   => 'static#new',:as=> :static_new
+  match 'static/create' => 'static#create'
   match 'static/advertise' => 'static#advertise'
 #savedblogs
   match 'savedblog/new/:id' => 'savedblog#new',:as => :saved_blog

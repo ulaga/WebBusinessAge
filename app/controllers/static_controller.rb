@@ -5,15 +5,19 @@ class StaticController < ApplicationController
 	end
 	def about
 	end
-	def contactus
-		@c=Contactus.new
-		@c=Contactus.create(params[:contactus])
+	
+	def new
+	 @c=Contactus.new
+	end
+	
+	def create
+	@c=Contactus.create(params[:contactus])
 	if @c.save
-		Contact.sendmail(@c.email,@c.subject).deliver
+	Contact.sendmail(@c.email,@c.subject).deliver
+	redirect_to home_userhome_path
+	end
+       end
 
-		redirect_to home_userhome_path
-	end
-	end
 	def advertise
 	end
 

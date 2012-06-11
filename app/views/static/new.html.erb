@@ -22,7 +22,7 @@ s = s + "}";
 eval(s);
 }
 </script>
-<% form_for :contactus do |c| %>
+<% form_for :contactus , :url => {:action => 'create', :method => 'post'} do |c| %>
 
 <DIV id=ou27 style="position:absolute; left:30px; top:144px; width:1300px; height:117px;; overflow:visible">
 
