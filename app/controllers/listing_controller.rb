@@ -19,6 +19,7 @@ def create_listing
   @list = Listing.new(params[:listing])
   @list.user_id=current_user.id
  	 if @list.save  
+		flash[:notice] = "Your listing has been created successfully!" 
 		redirect_to home_advertiserhome_path
 	end  
 end

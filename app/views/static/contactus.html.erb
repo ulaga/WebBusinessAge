@@ -22,7 +22,7 @@ s = s + "}";
 eval(s);
 }
 </script>
-
+<% form_for :contactus do |c| %>
 
 <DIV id=ou27 style="position:absolute; left:30px; top:144px; width:1300px; height:117px;; overflow:visible">
 
@@ -60,11 +60,11 @@ src="Contact-us-page_files/u31.png" border="0" alt=""></span>
 
 <DIV id=u33 style="position:absolute; left:42px; top:318px; width:580px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u33_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;">Please&nbsp; use the form below to e-mail us. We'll respond to your enquiry as soon as possible.</span></DIV></DIV>
-<INPUT id=u34  type=text value="" style="position:absolute; left:295px; top:380px; width:338px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+<div style="position:absolute; left:295px; top:380px; width:338px; height:25px;"><%= c.text_field :last_name %> </div>
 
-<TEXTAREA id=u35  style="position:absolute; left:298px; top:517px; width:350px; height:90px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"  ></TEXTAREA>
+<div style="position:absolute; left:298px; top:517px; width:350px; height:90px;"><%= c.text_area :comment, :size => "43x4" %></div>
 
-<INPUT id=u36  type=submit value="Submit" style="position:absolute; left:296px; top:615px; width:84px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<div style="position:absolute; left:296px; top:615px; width:84px; height:25px;" ><%= c.submit "submit" %></div>
 
 
 
@@ -76,13 +76,13 @@ src="Contact-us-page_files/u31.png" border="0" alt=""></span>
 <DIV id=u39_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><b>Comments</b></span></DIV></DIV>
 <DIV id=u40 style="position:absolute; left:215px; top:349px; width:110px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u40_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><b>First Name</b></span></DIV></DIV>
-<INPUT id=u41  type=text value="" style="position:absolute; left:294px; top:344px; width:338px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+<div style="position:absolute; left:294px; top:344px; width:338px; height:25px;"><%= c.text_field :first_name %> </div>
 
 <DIV id=u42 style="position:absolute; left:216px; top:382px; width:130px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u42_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><b>Last Name</b></span></DIV></DIV>
 <DIV id=u43 style="position:absolute; left:212px; top:417px; width:70px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u43_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><b>Your E-mail</b></span></DIV></DIV>
-<INPUT id=u44  type=text value="" style="position:absolute; left:296px; top:415px; width:338px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+<div style="position:absolute; left:296px; top:415px; width:338px; height:25px;"><%= c.text_field :email %></div>
 
 <SELECT id=u45  style="position:absolute; left:296px; top:449px; width:175px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
 <OPTION  value="Tip for an article">Tip for an article</OPTION>
@@ -97,8 +97,8 @@ src="Contact-us-page_files/u31.png" border="0" alt=""></span>
 
 <DIV id=u46 style="position:absolute; left:234px; top:487px; width:70px; height:15px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u46_rtf><span style=" font-family:'Arial'; color:#000000; font-size:12px;"><b>Subject</b></span></DIV></DIV>
-<INPUT id=u47  type=text value="" style="position:absolute; left:296px; top:482px; width:338px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
-
+<div style="position:absolute; left:296px; top:482px; width:338px; height:25px;"><%= c.text_field :subject %></div>
+<% end %>
 <span style="position:absolute; left:40px; top:184px; width:913px; height:5px; ;
 filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Contact-us-page_files/u48.png',sizingMethod='scale');
 "><img style="width:913px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 

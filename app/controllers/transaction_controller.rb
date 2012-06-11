@@ -6,7 +6,6 @@ def show
 end
 def new
    @transaction=Transaction.new
-   @amount = PriceDetails.all
    @cat=Listing.select(:category)
 end
   

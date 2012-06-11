@@ -316,7 +316,9 @@ src="images/Home_files/u102.png" border="0" alt=""></span>
 <DIV id=u102container style="position:absolute; left:1000px; top:150px; width:211px; height:291px; overflow:visible; background:#D8D8D8; border: 1px solid">
 
 <DIV id=u103 style="position:absolute; left:2px; top:137px; width:206px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left; word-wrap:break-word;" >
-<DIV id=u103_rtf>&nbsp;</DIV></DIV>
+<DIV id=u103_rtf>&nbsp;</DIV>
+<%= sign_in %>
+</DIV>
 </DIV>
 <IMG id=u102 src="images/Resources/transparent.gif" style="position:absolute; left:1000px; top:150px; width:210px; height:290px"  >
 
@@ -342,13 +344,13 @@ src="images/Home_files/u104.png" border="0" alt=""></span>
 <DIV id=u106_rtf><span style=" font-family:'Arial'; color:#000000; font-size:15px;"><b>Login</b></span></DIV></DIV>
 <DIV id=u107 style="position:absolute; left:1026px; top:237px; width:155px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u107_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><%= f.label :email %></span></DIV></DIV>
-<div style="position:absolute; left:1082px; top:232px; width:95px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+<div style="position:absolute; left:1082px; top:232px; width:95px; height:25px;"   >
  <%= f.email_field :email, :size => "5" %>
 </div>
 
 <DIV id=u109 style="position:absolute; left:1025px; top:271px; width:66px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left; word-wrap:break-word;" >
 <DIV id=u109_rtf><span style=" font-family:'Arial'; color:#000000; font-size:13px;"><%= f.label :password %></span></DIV></DIV>
-<div style="position:absolute; left:1082px; top:266px; width:95px; height:25px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 13px; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+<div style="position:absolute; left:1082px; top:266px; width:95px; height:25px; "   >
 <%= f.password_field :password, :size => "5" %>
 </div>
 

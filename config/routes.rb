@@ -6,6 +6,9 @@ WBA::Application.routes.draw do
   resources :blogs
   match 'blogs/index' => 'blogs#index'
   match 'blogs/show/:id' => 'blogs#show'
+  match '/feed' => 'blogs#feed',
+      :as => :feed,
+      :defaults => { :format => 'atom' }
 #static controller
   match 'static/logout' => 'static#logout'
   match 'static/about' => 'static#about'
@@ -17,7 +20,8 @@ WBA::Application.routes.draw do
 #savedlistings
     match 'savedlisting/new/:id' => 'savedlisting#new',:as => :saved_listing
     match 'savedlisting/index' => 'savedlisting#index'
- 
+#wba
+   match 'wba/user' => 'wba#user'
 
 #all devise controllers
 

@@ -24,5 +24,14 @@ config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+ActionMailer::Base.smtp_settings = {
+  :address => "smtp.gmail.com",
+
+  :port => "587",
+  #:domain => "localhost:3000",
+  :authentication => :plain,
+  :enable_starttls_auto => true,
+  :user_name => "ulaganathan.pv@gmail.com", :password => 'aakihdar'
+}
 end
 

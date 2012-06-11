@@ -2,8 +2,9 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.xml
   def index
-    @blogs = Blog.all
+    @recent = Blog.all
 	 @blogs = Blog.paginate :page => params[:page], :per_page => 2
+	@cat=Blog.select(:category).uniq
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @blogs }
@@ -14,6 +15,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1.xml
   def show
     @blog = Blog.find(params[:id])
+    
 
     respond_to do |format|
       format.html # show.html.erb
