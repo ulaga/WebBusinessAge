@@ -14,6 +14,13 @@ gem 'heroku'
 gem 'activemerchant'
 gem 'will_paginate', '3.0.pre2'
 
+if RUBY_VERSION < "1.9"
+class String
+  def force_encoding(enc)
+    self
+  end
+end
+end
 
 
 # Use unicorn as the web server
