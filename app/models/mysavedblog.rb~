@@ -1,4 +1,0 @@
-class Mysavedblog < ActiveRecord::Base
-#relatioship with user
-	belongs_to :user
-end
