@@ -1,0 +1,13 @@
+require 'spec_helper'
+
+describe Blog do
+  
+	before(:each) do
+		@blog = Blog.new(:id => "",:user_id => "", :blog_id => "")
+	end
+	 it { should belong_to(:user)}
+	 it { should belong_to(:blog)}
+	
+
+end
+	

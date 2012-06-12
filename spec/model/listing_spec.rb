@@ -1,0 +1,9 @@
+describe Listing do
+  
+	before(:each) do
+		@list = Listing.new(:id => "",:title =>"list1", :shortdescription => "short description", :description => "description", :activatedform => "activated", :listingtypes => "sponsored", :georelevance => "Australia", :userlevel => "beginner", :sponsored_item1 => "sp1", :sponsored_item2 => "sp2", :category => "general", :content_type => "type", :user_id => "2")
+	end
+	 it { should have_many(:users).through(:savedlistings)}
+	 it { should have_many(:savedlistings)}
+	
+end

@@ -13,16 +13,14 @@ gem 'pg'
 gem 'heroku'
 gem 'activemerchant'
 gem 'will_paginate', '3.0.pre2'
-gem 'rspec'
-gem 'rspec-rails'
-gem 'rspec-core'
-gem 'shoulda'
+
 if RUBY_VERSION < "1.9"
-class String
-  def force_encoding(enc)
-    self
+  require "enumerator"
+  class String
+    def lines
+      enum_for(:each)
+    end
   end
-end
 end
 
 
