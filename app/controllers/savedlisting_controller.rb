@@ -13,10 +13,7 @@ before_filter :authenticate_user!, :only =>[:new]
 		@s=Savedlisting.find(params[:id])
 	end
 	def index
-		c=current_user.id
-		l_id= Savedlisting.where("user_id = #{c}").map(&:listings_id)
-		@list=Listing.paginate :page => params[:page], :per_page => 3
-		@list=Listing.find(l_id)
+		@list=current_user.listings
 		
 
 	end
