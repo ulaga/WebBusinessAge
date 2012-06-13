@@ -18,7 +18,5 @@ class StaticController < ApplicationController
 	end
        end
 
-	def advertise
-	end
 
 end
