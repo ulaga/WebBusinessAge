@@ -10,7 +10,7 @@ def new
 end
   
  def create
- p 5555555555555
+
    p params[:payment]
    
    @transaction = Transaction.new(params[:transaction])
