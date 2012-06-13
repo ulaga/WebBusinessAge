@@ -13,9 +13,7 @@ before_filter :authenticate_user!, :only =>[:new]
 		@s=Savedblog.find(params[:id])
 	end
 	def index
-		c=current_user.id
-		b_id= Savedblog.where("user_id = #{c}").map(&:blog_id)
-		@blog=Blog.find(b_id)
+		@blog=current_user.blogs
 	end
 		
 end
