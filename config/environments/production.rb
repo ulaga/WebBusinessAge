@@ -52,7 +52,7 @@ ActionMailer::Base.smtp_settings = {
   :port => "587",
   :authentication => :plain,
   :enable_starttls_auto => true,
-  :user_name => "ulaganathan.pv@gmail.com", :password => 'aakihdar'
+  :user_name => "ulaganathan.pv@gmail.com", :password => '********'
 }
 
 
