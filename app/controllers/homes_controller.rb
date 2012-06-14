@@ -43,17 +43,13 @@ before_filter :authenticate_user!
  end
 #to display all saved listings of a user
  def display_savedlistings
-	c=current_user.id
-	l_id= Savedlisting.where("user_id = #{c}").map(&:listings_id)
-	@sl=Listing.find(l_id).paginate :page => params[:page], :per_page => 2
+	@sl=current_user.listings.paginate :page => params[:page], :per_page => 2
 
 
  end
 #to display all saved blogs of a user
  def display_savedblogs
-	c=current_user.id
-	b_id= Savedblog.where("user_id = #{c}").map(&:blog_id)
-	@sb=Blog.find(b_id).paginate :page => params[:page], :per_page => 3
+	@sb=current_user.blogs.paginate :page => params[:page], :per_page => 3
 end
 def my_listing
 	@my=Listing.find_all_by_user_id(current_user.id).paginate :page => params[:page], :per_page => 2	
